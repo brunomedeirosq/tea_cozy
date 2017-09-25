@@ -1,0 +1,172 @@
+/* Generic style - Body */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+/* Specific Style Header Layout */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Specific Style Main Picture Layout - Our Mission */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  margin-top: 69px;
+}
+
+.black-band {
+  background-color: black;
+  width: 100%;
+}
+
+.black-band h2,
+.black-band h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* Specific Style Tiles Picture Layout - Tea of the Month */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tile span {
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* Specific Style Locations Picture Layout - Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 430px;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: auto;
+}
+
+.locations-tiles {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  flex-wrap: wrap;
+}
+
+.location-tile {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: black;
+  opacity: 1;
+  margin: 5px 20px;
+  padding: 10px;
+}
+
+.locations h2 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.location-tile h3 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.location-tile span {
+  margin: 20px 0px;
+}
+
+/* Specific Style Footer */
+
+.contacts {
+  height: 200px;
+}
+
+footer h2 {
+  margin: 0px;
+  padding: 10px;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
